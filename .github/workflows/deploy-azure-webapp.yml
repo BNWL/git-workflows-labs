@@ -9,8 +9,8 @@ on:
 jobs:
   deploy:
     env: 
-      app-name: "{webapp-LK}"
-      rg-name: "{RG1}"
+      app-name: webapp-LK
+      rg-name: RG1
     runs-on: ubuntu-latest
     steps:
       - name: Download a Build Artifact
