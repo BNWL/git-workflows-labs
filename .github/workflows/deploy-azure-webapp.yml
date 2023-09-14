@@ -7,7 +7,7 @@ on:
     types:
       - completed
 env:
-   app-name: webapp-LK
+   app-name: sp-lk
    rg-name: RG1
 jobs:
   deploy:
